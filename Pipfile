@@ -11,6 +11,7 @@ autopep8 = "*"
 [packages]
 django = "==3.0"
 django-crispy-forms = "*"
+django-mailjet = "*"
 
 [requires]
 python_version = "3.8"
