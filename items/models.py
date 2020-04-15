@@ -14,9 +14,8 @@ class Item(models.Model):
     photo = models.ImageField(upload_to="gallery", default='blank-image.png')
     seller = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
 
-
-def __str__(self):
-    return self.title
+    def __str__(self):
+        return self.title
 
 
 def get_absolute_url(self):
