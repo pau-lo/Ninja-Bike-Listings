@@ -1,5 +1,5 @@
 # Ninja-Bike-Listings
----
 
 
-A list of ninja bikes for sales.
+
+An app that list ninja bikes for sales but it can be used to list any other type of item.
