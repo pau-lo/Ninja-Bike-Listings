@@ -1,13 +1,13 @@
 {% extends 'base.html' %}
-{% block title %} Home {% endblock title %}
+{% block title %} Item Listings {% endblock title %}
 
 {% block content %}
 
-<div class="jumbotron">
-    <h1 class="display-4">Items for Sale</h1>
-    <p class="lead">You can Buy and Sell Ninja Bikes</p>
+<div class="jumbotron m-4">
+    <h1 class="display-4">Check out the Items for Sale</h1>
+    <p class="lead">You can Buy and Sell Anything!</p>
     <p class="lead">
-        <a class="btn btn-primary btn-lg" href="{% url 'item_list' %}" role="button">View Ninja Bikes</a>
+        <a class="btn btn-primary btn-lg" href="{% url 'item_list' %}" role="button">View all items</a>
     </p>
 </div>
 {% endblock content %}
